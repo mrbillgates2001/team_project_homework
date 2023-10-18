@@ -205,4 +205,156 @@ header #myLinks {
     padding: 0;
     margin: 0 auto;
   }
+}
+main * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main .container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 160px;
+}
+main .container .aboutbir {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+main .container .aboutbir .aboutbir-contentbir .parbir {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+}
+main .container .aboutbir .aboutbir-contentbir b {
+  margin-top: 8px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px; /* 137.037% */
+}
+main .container .aboutbir .aboutbir-contentbir .parikki {
+  margin-top: 30px;
+  color: var(--Dark-blue, #282938);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+main .container .aboutbir .aboutbir-contentikki img {
+  width: 640px;
+  height: 337.053px;
+  flex-shrink: 0;
+}
+main .container .aboutikki {
+  margin-top: 126px;
+  max-width: 1280px;
+  max-height: 716px;
+  background: #f4f5f5;
+}
+main .container .aboutikki .aboutbox-bir {
+  flex-shrink: 0;
+}
+main .container .aboutikki .aboutbox-bir .aboutbox-content {
+  display: flex;
+  width: 1280px;
+  height: 376px;
+  flex-shrink: 0;
+  padding: 96px 90px;
+  gap: 60px;
+}
+main .container .aboutikki .aboutbox-bir .aboutbox-content .aboutbox-contentbir {
+  max-width: 515px;
+  max-height: 184px;
+}
+main .container .aboutikki .aboutbox-bir .aboutbox-content .aboutbox-contentbir b {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  line-height: 56px; /* 147.368% */
+}
+main .container .aboutikki .aboutbox-bir .aboutbox-content .aboutbox-contentbir p {
+  margin-top: 16px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+}
+main .container .aboutikki .aboutbox-bir .aboutbox-content .aboutbox-contentikki {
+  max-width: 515px;
+  max-height: 184px;
+}
+main .container .aboutikki .aboutbox-bir .aboutbox-content .aboutbox-contentikki b {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  line-height: 56px; /* 147.368% */
+}
+main .container .aboutikki .aboutbox-bir .aboutbox-content .aboutbox-contentikki p {
+  margin-top: 16px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+}
+main .container .aboutikki .aboutbox-ikki {
+  max-width: 1280px;
+  max-height: 340px;
+}
+main .container .aboutikki .aboutbox-ikki img {
+  flex-shrink: 0;
+}
+main .container .aboutuch {
+  margin-top: 128px;
+  background: var(--Grey, #f4f6fc);
+  max-width: 1600px;
+  max-height: 712px;
+}
+main .container .aboutuch .boxx {
+  padding: 128px 0;
+}
+main .container .aboutuch .boxx .aboutuch-par {
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+main .container .aboutuch .boxx .aboutuch-box {
+  margin-top: 48px;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+main .container .aboutuch .boxx .aboutuch-box .aboutuch-boxbir {
+  background-color: #fff;
+  max-width: 267px;
+  max-height: 340px;
+  text-align: center;
+}
+main .container .aboutuch .boxx .aboutuch-box .aboutuch-boxbir .paddingl {
+  margin: 40px 64px;
+}
+main .container .aboutuch .boxx .aboutuch-box .aboutuch-boxbir .paddingl b {
+  margin-top: 30px;
+  color: var(--b, #1d2130);
+  font-style: normal;
+  font-size: 24px;
+}
+main .container .aboutuch .boxx .aboutuch-box .aboutuch-boxbir .paddingl p {
+  margin-top: 2px;
+  color: var(--b, #1d2130);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }/*# sourceMappingURL=main.css.map */
