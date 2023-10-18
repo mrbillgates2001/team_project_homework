@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    // margin-top: 100px;
+  }
+  
+  // HEADER 
+  
+  header{
+    background: #1C1E53;
+    padding: 16px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 92px;
+    .nav-items {
+        a {
+            color: white;
+        }
+        a:hover {
+            color: #FCD980;
+            transition: 0.5s;
+            
+        }
+    }
+  
+    #myLinks {
+        display: none;
+      }
+  
+  }
+  
+  @media only screen and (max-with: 1240px) {
+    .topnav {
+        display: none;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 805px) {
+      
+    .navbar {
+        .logo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 25px 0 0 25px;
+  
+        }
+        .nav-items {
+            display: none;
+        }
+    }
+    
+      .topnav{
+        display: block;
+        background-color: #1C1E53;
+        padding: 30px 0;
+        width: 100%;
+  
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+            padding: 24px 0;
+            
+        }
+      }
+      
+      .topnav a {
+        position: relative;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        background-color: #1C1E53;
+        text-align: center;
+      }
+      
+      .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 15px;
+  
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }    
+  }
+
+  // MAIN SECTION
+  
+      .aboutbir {
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        gap: 47px;
+        .aboutbir-contentbir {
+          .parbir {
+            color: var(--Dark-blue, #282938);
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+          }
+          b {
+            margin-top: 8px;
+            color: var(--Dark-blue, #282938);
+            font-family: Poppins;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 74px; /* 137.037% */
+          }
+          .parikki {
+            margin-top: 30px;
+            color: var(--Dark-blue, #282938);
+            text-align: justify;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+          }
+        }
+        .aboutbir-contentikki {
+          text-align: center;
+          img {
+              max-width: 1280px;
+              max-height: 340px;
+              flex-shrink: 0;
+          }
+        }
+      }
+      .aboutikki {
+        margin-top: 126px;
+        max-width: 1280px;
+        max-height: 716px;
+        background: #f4f5f5;
+        .aboutbox-bir {
+          flex-shrink: 0;
+          .aboutbox-content {
+            display: flex;
+            width: 1280px;
+            height: 376px;
+            flex-shrink: 0;
+            padding: 96px 90px;
+            gap: 60px;
+            .aboutbox-contentbir {
+              max-width: 515px;
+              max-height: 184px;
+              b {
+                color: var(--Dark-blue, #282938);
+                font-size: 38px;
+                //   font-weight: 600;
+                line-height: 56px; /* 147.368% */
+              }
+              p {
+                margin-top: 16px;
+                color: var(--Dark-blue, #282938);
+                font-family: Poppins;
+                font-size: 16px;
+                //   font-weight: 400;
+                line-height: 28px; /* 175% */
+              }
+            }
+            .aboutbox-contentikki {
+              width: 515px;
+              height: 184px;
+              b {
+                color: var(--Dark-blue, #282938);
+                font-size: 38px;
+                //   font-style: normal;
+                //   font-weight: 600;
+                line-height: 56px; /* 147.368% */
+              }
+              p {
+                margin-top: 16px;
+                color: var(--Dark-blue, #282938);
+                font-family: Poppins;
+                font-size: 16px;
+                //   font-style: normal;
+                //   font-weight: 400;
+                line-height: 28px; /* 175% */
+              }
+            }
+          } 
+      }
+      .aboutbox-ikki{
+        text-align: center;
+        justify-content: center;
+          img {
+            width: 100%;
+            height: auto;
+        }
+      }
+      }
+      .aboutuch {
+        margin-top: 128px;
+        background: var(--Grey, #f4f6fc);
+        width: 100%;
+        height:712px;
+        
+        .boxx {
+          padding: 128px 0;
+          .aboutuch-par {
+            color: var(--Dark-blue, #282938);
+            text-align: center;
+            font-family: Poppins;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 64px; /* 133.333% */
+          }
+          .aboutuch-box {
+            margin-top: 48px;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            .aboutuch-boxbir {
+              background-color: #fff;
+              max-width: 267px;
+              max-height: 340px;
+              text-align: center;
+              .paddingl {
+                margin: 40px 64px;
+                b {
+                  margin-top: 30px;
+                  color: var(--b, #1d2130);
+                  font-style: normal;
+                  font-size: 24px;
+                }
+                p {
+                  margin-top: 2px;
+                  color: var(--b, #1d2130);
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 28px; /* 175% */
+                }
+              }
+            }
+          }
+        }
+      }
+  
+  // media*****************************
+  @media (max-width: 1600px) {
+    // lg
+  }
+  
+  @media (max-width: 1350px) {
+    .aboutbir {
+          flex-wrap: wrap;
+          text-align: center;
+          align-items: center;
+          .aboutbir-contentbir {
+              b {
+                  font-size: 20px ;
+              }
+              .p {
+                  font-size: 12px;
+              }
+          }
+          
+      }
+      .aboutbox-content {
+          flex-wrap: wrap;
+          align-items: center;
+      }
+      .aboutuch-box {
+          flex-wrap: wrap;
+          align-items: center;
+          text-align: center;
+      }
+  }
+  
+  @media (max-width: 768px) {
+    // sm
+  }
+  
+  @media (max-width: 480px) {
+    // xs
+  }
+  
+
+
+  // FOOTER 
+
+.footer {
+    background-color: #1C1E53;
+    padding: 110px 0;
+    margin-top: 100px;
+    color: white;
+    .footer-content {
+        display: flex;
+        align-items: start;
+        gap: 142px;
+        .f-items-left {
+            
+            p {
+                padding: 23px 0 86px 0;
+            }
+            .contact-info {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                background: var(--Yellow, #FCD980);
+                color: black;
+                padding: 18px 37px 16px 37px;
+            }
+        }
+        .f-items-right {
+            p {
+                padding: 14px 0 28px 0;
+            }
+            .social {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+            }
+        }
+    }
+  }
+  
+  @media only screen and (max-width: 1030px) {
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 80px;
+  
+    }
+  }
+  
+  @media only screen and (max-width: 1012px) {
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 80px;
+        .f-items-left {
+            .contact-info {
+                display: flex;
+                flex-wrap: wrap;
+                //   .email {
+                //     display: flex;
+                //     justify-content: center;
+                //     align-items: center;
+                //     padding: 0;    
+                //   }          
+  
+            }
+        }
+        .f-items-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            
+        }
+    }
+  }
+  
+  @media only screen and (max-width: 425px){
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+          .email, .call {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;    
+            margin: 0 auto;
+          }          
+  
+    }
+  } /*# sourceMappingURL=main.css.map */

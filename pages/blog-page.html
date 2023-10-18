@@ -4,8 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog-page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../scss/main.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <nav class="navbar d-flex">
+                <div class="logo">
+                    <a href=""><img src="../images/home/Logo.svg" alt=""></a>
+                </div>
+  
+                <div class="nav-items">
+                  <ul class="d-flex">
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="../pages/about-us.html">About us</a></li>
+                      <li><a href="../pages/pricing.html">Pricing</a></li>
+                      <li><a href="../pages/work.html">Work</a></li>
+                      <li><a href="../pages/blog-page.html">Blog</a></li>
+                      <a class="button-type-1" href="../pages/contact-us.html">Contact us</a>
+                  </ul>
+              </div>
+  
+            </nav>
+            <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div id="myLinks">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Blog</a></li>
+                    <button class="button-type-1">Contact us</button>
+                </ul>
+            </div>            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>       
+            <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+            </script>
+        </div>
+  
+        
+    </header>
+
     <h1>Blog Page</h1>
+
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="f-items-left">
+                        <div class="logo">
+                            <a href=""><img src="../images/home/Logo.svg" alt=""></a>
+                        </div>
+                        <p>
+                            We are always open to discuss your project and  <br>improve your online presence.
+                        </p>
+                        <div class="contact-info">
+                            <div class="email">
+                                <h6>Email at me</h6>
+                                <a href="mailto:">contact@website.com</a>
+                            </div>
+                            <div class="call">
+                                <h6>Call us</h6>
+                                <a href="tel:+0927 6277 28525">0927 6277 28525</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-items-right">
+                        <h1>Lets Talk!</h1>
+                        <p>We are always open to discuss your project, <br> improve your online presence and help with your <br> UX/UI design challenges.</p>
+                        <div class="social">
+                            <a href=""><img src="../images/home/social-media/facebook.svg" alt=""></a>
+                            <a href=""><img src="../images/home/social-media/twitter.svg" alt=""></a>
+                            <a href=""><img src="../images/home/social-media/instagram.svg" alt=""></a>
+                            <a href=""><img src="../images/home/social-media/linkedn.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
