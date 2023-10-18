@@ -1,0 +1,21 @@
+@mixin display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin btn{
+    width: 254px;
+    height: 64px;
+    border-radius: 41px;
+    font-size: 18px;
+    line-height: 32px;
+    transition: 0.4s;
+    border: none;
+    
+}
+@mixin hover{
+    border: 1px solid #282938;
+    color: #282938;
+    transform: scale(1.1);
+    background: none;
+}

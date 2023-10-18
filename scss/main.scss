@@ -5,3 +5,6 @@
 @use 'pages' as *;
 @use 'themes' as *;
 @use 'vendors' as *;
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as *;
+@use './pages/pricing' as *;

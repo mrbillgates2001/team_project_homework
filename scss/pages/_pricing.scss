@@ -28,6 +28,7 @@
     bottom: 0;
     width: 100%;
     height: 92px;
+    z-index: 100;
     .nav-items {
         a {
             color: white;
@@ -108,6 +109,299 @@
         color: black;
       }    
   }
+
+  // MAIN SECTION 
+
+main {
+  background-color: white;
+  .pricing {
+    background-color: white;
+  }
+}
+
+  .hero{
+    // max-width: 1600px;
+    // width: 100%;
+    // height: 1891px;
+    margin: 0 auto; 
+     margin-top: 220px;
+     
+    
+}
+
+.plans{
+    text-align: center;
+    color: $color-text;
+    font-size: 48px;
+    line-height: 64px;
+}
+.text{
+    text-align: center;
+    color: #282938;
+    font-size: 16px;
+    line-height: 28px;
+    width: 562px;
+   
+}
+.hj{
+display: flex;
+justify-content: center;
+}
+.landing{
+    max-width: 1280px;
+    width: 100%;
+    height: 746px;
+    margin-top: 64px;
+    @include display;
+}
+.landing-page{
+    width: 406px;
+    height: 745px;
+    padding: 64px 76px 62px 48px;
+    border-radius: 12px;
+    background-color:  #F4F6FC;
+    transition: 0.4s;
+}
+.landing-pages{
+    width: 406px;
+    height: 745px;
+    padding: 64px 76px 62px 48px;
+    border-radius: 12px;
+    // background-color:  #1C1E53;
+    background-image: url(../imgs/Ellipse\ 226.png);
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.landing-page:hover{
+    transform: scale(1.1);
+}
+.landing-pages:hover{
+    transform: scale(1.1);
+}
+.landing-pages a{
+    font-size: 16px;
+    color: 
+    #FCD980;
+}
+.landing-pages img{
+    margin-top: 78px;
+}
+.dollor{
+    font-size: 38px;
+    display: inline;
+    // color: $color-text; 
+}
+.landing-page a{
+    font-size: 16px;
+}
+.text-page{
+    margin-top: 20px;
+    font-size: 24px;
+    // color: $color-text;
+    line-height: 36px;
+    font-weight: 500px;
+}
+.beyond{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #282938;
+    line-height: 28px;
+}
+.landing-page img{
+    margin-top: 78px;
+}
+.started{
+    @include btn;
+    background-color: #282938;
+    color: $color-white;
+    margin-top: 79px;
+}
+.started:hover{
+    @include hover;
+}
+.startedd:hover{
+    @include hover;
+}
+.starteds:hover{
+   color: #FCD980;
+   border: 1px solid #FCD980;
+   background: none;
+   transform: scale(1.1);
+}
+.dollors{
+    font-size: 38px;
+    display: inline;
+    color: $color-white; 
+}
+
+.text-pages{
+    margin-top: 20px;
+    font-size: 24px;
+    color: $color-white;
+    line-height: 36px;
+    font-weight: 500px;
+}
+.beyonds{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.starteds{
+    @include btn;
+    background-color: #FCD980;
+    color: #000;
+    margin-top: 79px;
+}
+.startedd{
+    @include btn;
+    background-color: #282938;
+    color: $color-white;
+    margin-top: 30px;
+}
+
+// media
+@media (max-width:1240px){
+   .landing-page,.landing-pages{
+    width: 325px;
+    height: 720px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 34px 46px 32px 28px;
+   }
+   
+   .fg{
+    display: block;
+   }
+   button{
+    width: 200px;
+   }
+   .asked{
+    margin-top: 1000px;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 50px;
+}
+.more{
+    margin: 0 auto;
+    text-align: center;
+}
+}
+@media (max-width:990px){
+ .landing{
+        flex-direction: column;
+        text-align: center;
+        gap: 34px;
+    }
+    .hero{
+        height: 3000px;
+    }
+    .asked{
+        margin-top: 1000px;
+        flex-direction: column;
+        row-gap: 50px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 1300px;
+    }
+    
+    .icon{
+        width: 28px;
+        height: 28px;
+    }
+    .how{
+       font-size: 12px;
+    }
+
+}
+// section-2
+
+.asked{
+max-width: 1280px;
+width: 100%;
+height: 562px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+margin-top: 128px;
+}
+.fre{
+    font-size: 48px;
+    color: $color-text;
+    width: 406px;
+    line-height: 64px;
+
+}
+.for{
+    font-size: 18px;
+    line-height: 32px;
+}
+.team{
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 58px;
+    justify-content: space-between;
+    height: 82px;
+    border: 1px solid rgb(159, 159, 159);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 32px;
+    transition: 0.4s;
+}
+.teams{
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 58px;
+    justify-content: space-between;
+    height: 72px;
+    border: 1px solid rgb(159, 159, 159);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    transition: 0.4s;
+}
+.teams:hover{
+    transform: scale(1.1);
+}
+.team:hover{
+    transform: scale(1.1);
+}
+.team a{
+    font-size: 24px;
+    line-height: 36px;
+}
+.teams   a{
+    font-size: 24px;
+    line-height: 36px;
+}
+.how{
+width: 400px;
+    font-size: 24px;
+    color: $color-text;
+    line-height: 36px;
+  
+}
+.icon{
+    transition:0.4s ;
+}
+.icon:active{
+  transform: rotate(225deg);
+}
+.lorem{
+    position: absolute;
+    margin-top: -54px;
+    font-size: 18px;
+    width: 624px;
+    color: $color-text;
+    margin-left: 85px;
+
+}
 
 
   // FOOTER 
